@@ -1,0 +1,38 @@
+h1{
+    font-family: sans-serif;
+    width: 7%;
+    color: brown;
+}
+div p, h2{
+    font-family: 'Courier New';
+    font-size: 2em;
+}
+strong{
+    font-style: italic;
+}
+.seznam{
+    font-size: 3rem;
+}
+.vstup{
+    font-family: system-ui;
+    font-size: 1.5em;
+}
+#jmeno{
+    background-color: brown;
+}
+li:hover{
+    background-color: rgb(190, 190, 190);
+}
+td, th{
+    font-size: 2rem;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+thead{
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+tbody{
+    background-color: white;
+    color: rgb(82, 82, 82);
+}
