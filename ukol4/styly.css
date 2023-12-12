@@ -1,0 +1,96 @@
+.inline-container{
+    border: 1px solid black;
+}
+.inline-block-container{
+    border: 1px solid black;
+}
+.block-container{
+    border: 1px solid black;
+}
+.flex-container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inline-div{
+    display: inline;
+    background: black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    color: gray;
+    font-family: monospace;
+    font-size: 2rem;
+    transition: 3s;
+    animation-name: inlineAnim;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: step-start;
+}
+
+@keyframes inlineAnim {
+    0% {width: 100px;}
+    100% {width: 200px;}
+}
+
+.inline-block-div{
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    color: gray;
+    font-family: monospace;
+    font-size: 2rem;
+    transition: 3s;
+    animation-name: inlineblockAnim;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: step-start;
+}
+.block-div{
+    display: block;
+    background: green;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    color: gray;
+    font-family: monospace;
+    font-size: 2rem;
+    transition: 3s;
+    animation-name: blockAnim;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: step-start;
+}
+.flex-div{
+    display: flex;
+    background: blue;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    color: gray;
+    font-family: monospace;
+    font-size: 2rem;
+    transition: 3s;
+    animation-name: flexAnim;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: step-start;
+}
+.inline-div:hover{
+    background: purple;
+}
+.inline-block-div:hover{
+    background: purple;
+}
+.block-div:hover{
+    background: purple;
+}
+.flex-div:hover{
+    background: purple;
+}
